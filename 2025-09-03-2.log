@@ -1,0 +1,1442 @@
+[99:99:99] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
+[99:99:99] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 11
+[99:99:99] [ForkJoinPool-1-worker-5/WARN]: Mod tool_trims uses the version 2.2.2b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '2b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[99:99:99] [ForkJoinPool-1-worker-3/WARN]: Mod oceansdelight uses the version fdrf-fabric-1.0.2-1.21 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fdrf'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[99:99:99] [main/INFO]: Dependencies overridden for frost
+[99:99:99] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21.1+1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Every Compat' (everycomp) 1.21-2.11.1 recommends any version of sawmill, which is missing!
+	 - You should install any version of sawmill for the optimal experience.
+ - Mod '[Let's Do] Farm & Charm' (farm_and_charm) 1.2.0-beta-release conflicts with any version before 2.0.0 of mod 'Brewery' (brewery), which is present with the following versions: 0.8.1+1.21.1!
+	 - While this won't prevent you from starting the game, the developer(s) of mod '[Let's Do] Farm & Charm' (farm_and_charm) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.4 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Living Things' (livingthings) 1.21.1-2.3.0 recommends any version of patchouli, which is missing!
+	 - You should install any version of patchouli for the optimal experience.
+[99:99:99] [main/INFO]: Loading 417 mods:
+	- addonslib 1.21.1-1.8
+	- aether 1.5.9
+	   |-- accessories 1.1.0-beta.48+1.21.1
+	   |-- cumulus_menus 2.0.7
+	   |-- mm_shedaniel 2.4.1
+	   \-- nitrogen_internals 1.1.21
+	- aether_emissivity 1.0.1
+	- aether_enhanced_extinguishing 1.0.0
+	- almanac 1.0.2
+	- alternate-current 1.9.0
+	- amethystequipment 1.0.4
+	- animal_feeding_trough 1.1.2+1.21.1
+	- appleskin 3.0.6+mc1.21
+	- architectury 13.0.8
+	- athens_coins 0.2-1.21
+	- balm 21.0.49
+	   \-- kuma_api 21.0.5
+	- bcc 21.1.0
+	- betterdays 3.2.0.0
+	   \-- spectrelib 0.17.2+1.21
+	- betterdeserttemples 1.21.1-Fabric-4.1.5
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.21.1-Fabric-5.1.4
+	   \-- org_reflections_reflections 0.10.2
+	- betterendisland 1.21.1-Fabric-3.1.2
+	   \-- org_reflections_reflections 0.10.2
+	- betterfortresses 1.21.1-Fabric-3.1.5
+	   \-- org_reflections_reflections 0.10.2
+	- betterjungletemples 1.21.1-Fabric-3.1.2
+	   \-- org_reflections_reflections 0.10.2
+	- bettermineshafts 1.21.1-Fabric-5.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- betteroceanmonuments 1.21.1-Fabric-4.1.2
+	   \-- org_reflections_reflections 0.10.2
+	- betterstrongholds 1.21.1-Fabric-5.1.3
+	   \-- org_reflections_reflections 0.10.2
+	- bettertridents 21.1.0
+	- betterwitchhuts 1.21.1-Fabric-4.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- biomesoplenty 21.1.0.12
+	- biomeswevegone 2.4.7
+	- birds-boids 1.3.1
+	- boids 2.0.2+1.21
+	   \-- blue_endless_jankson 1.2.3
+	- brewery 0.8.1+1.21.1
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- polymer-core 0.9.18+1.21.1
+	   |    |-- polymer-networking 0.9.18+1.21.1
+	   |    |    \-- polymer-common 0.9.18+1.21.1
+	   |    |         \-- packet_tweaker 0.5.5+1.21
+	   |    \-- polymer-registry-sync-manipulator 0.9.18+1.21.1
+	   |-- polymer-resource-pack 0.9.18+1.21.1
+	   |    \-- polymer-common 0.9.18+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   |-- polymer-virtual-entity 0.9.18+1.21.1
+	   |    \-- polymer-common 0.9.18+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   |-- server_translations_api 2.3.1+1.21-pre2
+	   \-- sgui 1.6.0+1.21
+	- brewinandchewin 4.4.1
+	   |-- greenhouseconfig 2.2.0+1.21.1
+	   \-- greenhouseconfig_toml 1.1.0
+	        \-- greenhouseconfig_night_config 1.1.0
+	- c2me 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-base 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-client-uncapvd 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-general-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-notickvd 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-allocs 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-chunk-access 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-chunkio 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-dfc 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-math 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-scheduling 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-worldgen-general 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-worldgen-vanilla 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunk-serializer 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunk-system 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunkio 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-server-utils 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-threading-lighting 0.3.0+alpha.0.320+1.21.1
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cakedelight 1.21.1-v4.0.0
+	- camerapture 1.10.6
+	   \-- io_github_darkxanter_webp-imageio 0.3.2
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
+	- carryon 2.2.2
+	- charmofundying 9.1.0+1.21.1
+	   \-- spectrelib 0.17.2+1.21
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- clumps 19.0.0.1
+	- collective 8.3
+	- command-on-interval 0.2.4
+	- commandaliases 1.0.1+mc1.21-build.70
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.1
+	   |-- com_fasterxml_jackson_core_jackson-core 2.17.1
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.1
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-toml 2.17.1
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.17.1
+	   |-- com_fathzer_javaluator 3.0.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_apache_commons_commons-pool2 2.12.0
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_yaml_snakeyaml 2.2
+	   \-- redis_clients_jedis 5.1.2
+	- commonnetworking 1.0.20-1.21.1
+	- compatdelight 1.0.0.1
+	- config-manager 1.0.6
+	- configurabledespawntimer 4.3
+	- copperhopper 0.10.0+1.21.1
+	- corgilib 5.0.0.7
+	   |-- com_electronwill_night-config_core 3.8.2
+	   \-- com_electronwill_night-config_toml 3.8.2
+	- corndelight 1.21-1.0.0
+	- cornexpansion 1.1.0
+	- craftingtweaks 21.1.6
+	- crafttweaker 21.0.34
+	   \-- org_reflections_reflections 0.10.2
+	- cratedelight 25.8.8-1.21-fabric
+	- creeper_firework 2.2.0
+	- creeperhealing 2.0.1-1.21+
+	- culturaldelights 0.17.7
+	- debugify 1.21.1+1.0
+	- deuf_refabricated 1.1.0
+	- disconnect-packet-fix 2.0.0
+	- display_case 1.2
+	- distanthorizons 2.3.4-b
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   \-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	- doapi 1.3.0-beta-release
+	   |-- blue_endless_jankson 1.2.3
+	   \-- terraform-wood-api-v1 11.0.0-alpha.1
+	- doubledoors 7.1
+	- dumplings_delight 1.21.1-1.3.0+fabric
+	- dungeons_arise 2.1.64
+	- dungeons_arise_seven_seas 1.0.3
+	- easyanvils 21.1.0
+	- easymagic 21.1.0
+	- elytra-drag 0.4-1.21+
+	- elytraslot 9.0.1+1.21.1
+	- elytratrims 3.5.9
+	   \-- conditional-mixin 0.6.3
+	- emeraldequipment 1.0.4
+	- ends_delight 2.5.2+refabricated.1.21.1
+	- essential_commands 0.35.2-mc1.21
+	   |-- ec-core 1.3.0-mc1.21
+	   |    |-- fabric-permissions-api-v0 0.3.1
+	   |    \-- playerabilitylib 1.10.0
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- playerabilitylib 1.10.0
+	- everycomp 1.21-2.11.1
+	- evs 2.3.2
+	- exlinecopperequipment 1.0.3
+	- expandedstorage 14.2.4
+	- expore 1.21.1-0.4
+	- fabric-api 0.116.6+1.21.1
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.33+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.14+248df81c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.5+kotlin.2.2.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- fancydelight 1.0.0
+	- farm_and_charm 1.2.0-beta-release
+	   \-- blue_endless_jankson 1.2.3
+	- farmersdelight 1.21.1-3.2.0+refabricated
+	   \-- mm 2.3
+	- faux-custom-entity-data 13.0.1
+	- ferritecore 7.0.2-hotfix
+	- fishofthieves 4.1.3
+	   \-- mm 2.3
+	- flan 1.21.1-1.12.0
+	   |-- lingua_bib 1.21.1-1.0.5
+	   \-- rtree-3i-lite-fabric 0.3.0
+	- followersteleporttoo 2.7
+	- foodplusid 2.31+1.21
+	- forgeconfigapiport 21.1.4
+	- frightsdelight 1.3.3
+	- frost 2.1.1
+	- frozenlib 2.1.7-mc1.21.1
+	- fusion 1.2.11
+	- geckolib 4.7.7
+	- glasscarpet 1.3.0-1.21.0
+	- glitchcore 2.1.0.0
+	   \-- net_jodah_typetools 0.6.3
+	- golden_foods 2.4.0
+	- hugestructureblocks 1.1.2
+	- integrated_circuit 1.21-1.5.0
+	- interactic 0.2.3+1.21
+	- items_displayed 1.3
+	- java 21
+	- jmc 1.19.2
+	- justmobheads 8.5
+	- justplayerheads 4.2
+	- kiwi 15.1.5+fabric
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- ksyxis 1.3.4
+	- lamps 1.21.1-1.7.4
+	- letmedespawn 1.5.0
+	- lithium 0.15.0+mc1.21.1
+	- livingthings 1.21.1-2.3.0
+	- logbegone 1.0.3
+	- lolmcmv 1.8.1
+	- lolmcmv-aft 1.0.4
+	- lolmcv 1.5.6
+	- lootr 1.21-1.10.35.91
+	- luckperms 5.4.140
+	   \-- fabric-permissions-api-v0 0.3.1
+	- mavapi 1.2.1
+	- mavm 1.3.0
+	- mcwbiomesoplenty 1.21.1-1.2
+	- mcwbridges 3.1.0
+	- mcwbyg 1.21.1-1.2.1
+	- mcwdoors 1.1.2
+	- mcwfences 1.2.0
+	- mcwfurnitures 3.3.0
+	- mcwholidays 1.1.0
+	- mcwlights 1.1.2
+	- mcwpaintings 1.0.5
+	- mcwpaths 1.1.0
+	- mcwroofs 2.3.2
+	- mcwtrpdoors 1.1.4
+	- mcwwindows 2.4.0
+	- minecraft 1.21.1
+	- mineralchance 3.8
+	- minerally 1.21-1.21
+	- mo_glass 1.10.1-MC1.21.1
+	- monkeyconfig 0.1.2+1.21
+	   |-- com_electronwill_night-config_hocon 3.7.2
+	   |-- com_electronwill_night-config_json 3.7.2
+	   |-- com_electronwill_night-config_yaml 3.7.2
+	   \-- sgui 1.6.0+1.21
+	- monkeylib538 2.0.2
+	   \-- monkeylib538-common 2.0.2
+	        \-- blue_endless_jankson 1.2.3
+	- monolib 2.1.0
+	- moonlight 1.21-2.23.0
+	- more_armor_trims 1.4.3-1.21
+	- moreberries 1.5.11
+	- moredelight 25.7.28-1.21-fabric
+	- moremcmeta_emissive_plugin 1.21.1-2.0.7
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   \-- fabric-renderer-indigo 1.7.0+c705a49c19
+	- moremobvariants 1.3.1.1
+	- movingelevators 1.4.11
+	- mr_better_babies 0.7.13
+	- mr_bigger_stacksize 1-v.2.0.0
+	- mr_cauldron_concretepowder 1.1.0
+	- mr_developer_resources 1.6.3
+	- mr_edf_remastered 5.0-beta4
+	- mr_farmers_cuttingbiomesoplenty 1.21-2.0.0-fabric
+	- mr_farmers_cuttingohthebiomeswevegone 1.21.1-2.1-fabric
+	- mr_farmers_cuttingtheaether 1.21.1-1.0-fabric
+	- mr_lodestone_recipebackport 2.0
+	- mr_more_compatibilityvariantsns 1.0.3+1.21(.1)
+	- mr_more_compatibilityvariantsotbwg 1.0.3+1.21(.1)
+	- mr_no_endermangrief 1-v.2.1.2
+	- mr_purpurpack_smeltraworeblocks 3.0
+	- mr_spawn_animationscompats 11.0
+	- mru 1.0.19+LTS+1.21.1+fabric
+	   \-- org_commonmark_commonmark 0.21.0
+	- mythicupgrades 4.2.0+mc1.21
+	- nametagtweaks 4.0
+	- natures_delight 1.10-1.21.1
+	- natures_spirit 2.2.4-1.21.1
+	- naturescompass 1.21.1-2.2.7-fabric
+	- nerb 0.4.3
+	- netherportalfix 21.1.3
+	- nochatreports 1.21.1-v2.9.1
+	- noisium 2.3.0+mc1.21-1.21.1
+	- obsidianequipment 1.0.2
+	- oceansdelight fdrf-fabric-1.0.2-1.21
+	- octolib 0.6.0.4
+	   \-- org_yaml_snakeyaml 2.2
+	- ohthetreesyoullgrow 5.0.14
+	- oregrowth 1.1.7
+	- owo 0.12.15.4+1.21
+	   |-- io_wispforest_endec 0.1.5.1
+	   |-- io_wispforest_endec_gson 0.1.3.1
+	   |-- io_wispforest_endec_jankson 0.1.3.1
+	   \-- io_wispforest_endec_netty 0.1.2
+	- pandamc_concreteplus 1.0.0
+	- pearfection 1.3.1
+	   \-- terraform-wood-api-v1 11.0.0-alpha.1
+	- pineapple_delight 1.0.4-1.21.1-Fabric
+	- platform 1.2.10.2
+	- polymer-bundled 0.9.18+1.21.1
+	   |-- polymer-autohost 0.9.18+1.21.1
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.9.18+1.21.1
+	   |-- polymer-common 0.9.18+1.21.1
+	   |    \-- packet_tweaker 0.5.5+1.21
+	   |-- polymer-core 0.9.18+1.21.1
+	   |    |-- polymer-networking 0.9.18+1.21.1
+	   |    |    \-- polymer-common 0.9.18+1.21.1
+	   |    |         \-- packet_tweaker 0.5.5+1.21
+	   |    \-- polymer-registry-sync-manipulator 0.9.18+1.21.1
+	   |-- polymer-resource-pack 0.9.18+1.21.1
+	   |    \-- polymer-common 0.9.18+1.21.1
+	   |         \-- packet_tweaker 0.5.5+1.21
+	   \-- polymer-virtual-entity 0.9.18+1.21.1
+	        \-- polymer-common 0.9.18+1.21.1
+	             \-- packet_tweaker 0.5.5+1.21
+	- polymorph 1.1.0+1.21.1
+	- pumpkin_pie 1.0.2+1.21
+	- puzzleslib 21.1.38
+	- quad 1.2.9
+	- random_mob_sizes 1.21.1-2.2.2
+	- realisticbees 4.2
+	- rechiseled 1.1.6+b
+	- recipecooldown 1.17.1-1.0.0
+	- reciperemover 1.0.11
+	- resourcefullib 3.0.12
+	   |-- com_teamresourceful_bytecodecs 1.1.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- revive 1.0.7
+	- rottencreatures 1.1.2
+	- rusticdelight 1.4.2
+	- saturative-overhaul 0.2.35
+	- scalablelux 0.1.0.1+fabric.d0d58ab
+	- sereneseasons 10.1.0.1
+	   \-- net_jodah_typetools 0.6.3
+	- silencemobs 3.6
+	- silk-all 1.10.7
+	   |-- silk-commands 1.10.7
+	   |-- silk-core 1.10.7
+	   |-- silk-game 1.10.7
+	   |-- silk-igui 1.10.7
+	   |-- silk-nbt 1.10.7
+	   |-- silk-network 1.10.7
+	   \-- silk-persistence 1.10.7
+	- simple_copper_pipes 2.0.6
+	- sit 1.21-28
+	- slabsandstairs 1.11.0
+	- smarterfarmers 1.21-2.2.3
+	- snowrealmagic 12.1.2+fabric
+	- snowundertrees 2.7.1+1.21.1
+	- sound_physics_remastered 1.21.1-1.4.15
+	- spanishdelight 1.21.1-1.0.6
+	- spark 1.10.109
+	   \-- fabric-permissions-api-v0 0.3.1
+	- spawnanimations 1.11+mod
+	- staaaaaaaaaaaack 1.21.1-1.7
+	   \-- fiber 0.23.0-2
+	- starterkit 7.4
+	- storagedelight 25.6.24-1.21-fabric
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.18+a
+	- terrablender 4.1.0.8
+	- threadtweak 0.1.5+mc1.21.1
+	- timeoutout 1.0.4+1.20.2
+	- timestacker 1.2.0
+	- toms_storage 2.2.2
+	- toms_trading_network 0.3.0
+	- tool_trims 2.2.2b
+	- toomanypaintings 1.0.2-1.21-fabric
+	- toughasnails 10.1.0.13
+	   \-- net_jodah_typetools 0.6.3
+	- tradingpost 21.1.0
+	- trailandtales_delight 1.3
+	- travelersbackpack 10.1.24
+	- trinkets 3.10.0
+	- ubesdelight 0.4.3
+	   \-- midnightlib 1.6.9
+	- universal_shops 1.7.1+1.21
+	   |-- common-economy-api 1.1.1
+	   |-- common-protection-api 1.0.0
+	   |-- placeholder-api 2.4.0+1.21
+	   |-- server_translations_api 2.3.1+1.21-pre2
+	   \-- sgui 1.6.0+1.21
+	- unloadedactivity 0.6.7
+	- usefulfood 1.3.2-1.21.1-Fabric
+	- vanilla-permissions 0.3.1+1.21.1
+	   \-- fabric-permissions-api-v0 0.3.1
+	- vanillabackport 1.1.4.3
+	- variantsandventures 1.0.17
+	- vegandelight 1.4.1
+	- veinminer 2.4.2
+	   |-- de_miraculixx_core_dev 2.4.2
+	   \-- fabric-permissions-api-v0 0.3.1
+	- veinminer-enchantment 2.2.2
+	- villagernames 8.2
+	- visualworkbench 21.1.1
+	- way_much_faster_oxidize_reborn 1.4.4
+	- waystones 21.1.22
+	- wilderwild 4.0.14-mc1.21.1
+	- xxlpackets 1.0.5-1.21
+	- yet_another_config_lib_v3 3.7.1+1.21.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yigd 2.4.18
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- libgui 11.1.0+1.21
+	        |-- jankson 8.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- yungsapi 1.21.1-Fabric-5.1.6
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- yungsbridges 1.21.1-Fabric-5.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- yungsextras 1.21.1-Fabric-5.1.1
+	   \-- org_reflections_reflections 0.10.2
+[99:99:99] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Sync/MCSERVER/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[99:99:99] [main/INFO]: Compatibility level set to JAVA_17
+[99:99:99] [main/INFO]: Compatibility level set to JAVA_21
+[99:99:99] [main/WARN]: Reference map 'athens_coins-common-common-refmap.json' for athens_coins.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[99:99:99] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[99:99:99] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[99:99:99] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
+[99:99:99] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[99:99:99] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[99:99:99] [main/WARN]: Reference map 'cornexpansion-common-common-refmap.json' for cornexpansion.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'craftingtweaks.refmap.json' for craftingtweaks.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'craftingtweaks.refmap.json' for craftingtweaks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'crafttweaker.refmap.json' for crafttweaker.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'crafttweaker.refmap.json' for crafttweaker.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[99:99:99] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[99:99:99] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[99:99:99] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[99:99:99] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[99:99:99] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[99:99:99] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[99:99:99] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 2 override(s) found
+[99:99:99] [main/INFO]: Started MM (shedaniel's fork) at me/shedaniel/gen/mixin/
+[99:99:99] [main/WARN]: Reference map 'Manningham Mills-refmap.json' for mixins.mm_shedaniel.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'rechiseled.mixins.refmap.json' for rechiseled.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'ubesdelight-common-refmap.json' for ubesdelight-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/INFO]: Loading config WWMixinsConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[99:99:99] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[99:99:99] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[99:99:99] [main/WARN]: @Mixin target net.minecraft.class_310 was not found aether.mixins.json:client.accessor.MinecraftAccessor from mod aether
+[99:99:99] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
+[99:99:99] [main/WARN]: @Mixin target net.minecraft.class_970 was not found aether_emissivity.mixins.json:client.accessor.HumanoidArmorLayerAccessor from mod aether_emissivity
+[99:99:99] [main/WARN]: Error loading class: koala/fishingreal/FishingReal (java.lang.ClassNotFoundException: koala/fishingreal/FishingReal)
+[99:99:99] [main/WARN]: @Mixin target koala.fishingreal.FishingReal was not found boids.mixins.json:compat.RealFishingMixin from mod boids
+[99:99:99] [main/WARN]: Error loading class: net/minecraft/class_563 (java.lang.ClassNotFoundException: net/minecraft/class_563)
+[99:99:99] [main/WARN]: @Mixin target net.minecraft.class_563 was not found elytradrag.mixins.json:ElytraDragAnimation from mod elytra-drag
+[99:99:99] [main/WARN]: Error loading class: net/mehvahdjukaar/amendments/fabric/AmendmentsFabric (java.lang.ClassNotFoundException: net/mehvahdjukaar/amendments/fabric/AmendmentsFabric)
+[99:99:99] [main/WARN]: @Mixin target net.mehvahdjukaar.amendments.fabric.AmendmentsFabric was not found jmc.fabric.mixins.json:amendments.AmendmentsFabricMixin from mod jmc
+[99:99:99] [main/WARN]: Error loading class: net/mehvahdjukaar/amendments/common/CakeRegistry (java.lang.ClassNotFoundException: net/mehvahdjukaar/amendments/common/CakeRegistry)
+[99:99:99] [main/WARN]: @Mixin target net.mehvahdjukaar.amendments.common.CakeRegistry was not found jmc.mixins.json:amendments.CakeRegistryMixin from mod jmc
+[99:99:99] [main/WARN]: Error loading class: net/mehvahdjukaar/amendments/events/behaviors/InteractEvents (java.lang.ClassNotFoundException: net/mehvahdjukaar/amendments/events/behaviors/InteractEvents)
+[99:99:99] [main/WARN]: @Mixin target net.mehvahdjukaar.amendments.events.behaviors.InteractEvents was not found jmc.mixins.json:amendments.InteractEventsMixin from mod jmc
+[99:99:99] [main/INFO]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking.sleeping.furnace' (added by mods [unloadedactivity]) disables it and children
+[99:99:99] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[99:99:99] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[99:99:99] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[99:99:99] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[99:99:99] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[99:99:99] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[99:99:99] [main/WARN]: Error loading class: fuzs/diagonalblocks/world/phys/shapes/VoxelCollection (java.lang.ClassNotFoundException: fuzs/diagonalblocks/world/phys/shapes/VoxelCollection)
+[99:99:99] [main/WARN]: @Mixin target fuzs.diagonalblocks.world.phys.shapes.VoxelCollection was not found snowrealmagic.mixins.json:diagonalblocks.VoxelCollectionAccess from mod snowrealmagic
+[99:99:99] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[99:99:99] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[99:99:99] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[99:99:99] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[99:99:99] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm_shedaniel.json:net.minecraft.class_314 from mod mm_shedaniel
+[99:99:99] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[99:99:99] [main/INFO]: ThreadTweak config initialized
+[99:99:99] [main/WARN]: @Final field field_31100:I in fabric-unloadedactivity.mixins.json:chunk.randomTicks.PlantStemMixin from mod unloadedactivity should be final
+[99:99:99] [main/INFO]: Loading config WWBlockConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[99:99:99] [main/WARN]: Method overwrite conflict for scheduleRandomTick in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[99:99:99] [main/WARN]: Method overwrite conflict for getScheduledRandomTicks in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[99:99:99] [main/INFO]: Loading config WWEntityConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[99:99:99] [main/INFO]: Added new enum to class net.minecraft.class_1690$class_1692: FOT_COCONUT|fishofthieves_coconut
+[99:99:99] [main/ERROR]: Entity vanillabackport:creaking has no attributes
+[99:99:99] [main/ERROR]: Entity vanillabackport:happy_ghast has no attributes
+[99:99:99] [main/INFO]: Found existing configuration file for TomlConfigManager with name creeper-healing. Loaded values from .\config\creeper-healing.toml
+[99:99:99] [main/INFO]: Detected Java version 21. Enabling Java 16 features.
+[99:99:99] [main/INFO]: Registering Listeners!
+[99:99:99] [main/INFO]: AddonsLib Fabric !
+[99:99:99] [main/INFO]: [STDOUT]: All 27 have been set properly
+[99:99:99] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[99:99:99] [main/INFO]: Better Compatibility Checker starting
+[99:99:99] [main/INFO]: Loading config file
+[99:99:99] [main/INFO]: Config file loaded
+[99:99:99] [main/INFO]: Reflections took 30 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[99:99:99] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Constructing common components for bettertridents:main
+[99:99:99] [main/INFO]: Dispatching loading event for config bettertridents-common.toml
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[99:99:99] [main/INFO]: Initializing network...
+[99:99:99] [main/INFO]: Initialized network!
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone data components
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone items
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Blocks
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Wood
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Block Entities
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Entities
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Creative Tabs
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Sounds
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Block Predicate
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone State Providers
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Tree Decorators
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Custom Features
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Structure Pieces
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Types
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Configured Features
+[99:99:99] [main/INFO]: Creating and Registering Overworld Vegetation Configured Features
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Tree Configured Features
+[99:99:99] [main/INFO]: Creating and Registering Vanilla Configured Features
+[99:99:99] [main/INFO]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Placed Features
+[99:99:99] [main/INFO]: Creating and Registering Overworld Tree Placed Features
+[99:99:99] [main/INFO]: Creating and Registering Overworld Vegetation Placed Features
+[99:99:99] [main/INFO]: Creating and Registering Vanilla Placed Features
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Template Pools
+[99:99:99] [main/INFO]: Registering Oh The Biome's We've Gone Village Template Pools
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Poi Types
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Villager Professions
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone villager types
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Schedules
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Memory Module Types
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Sensor Types
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Map Decoration Types
+[99:99:99] [main/INFO]: Registering Oh The Biomes We've Gone Entity SubPredicates
+[99:99:99] [main/INFO]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+[99:99:99] [main/INFO]: Hello Cake!
+[99:99:99] [main/INFO]: Loading Collective version 8.3.
+[99:99:99] [main/INFO]: [STDOUT]: [Compat Delight] Tough As Nails detected — registering compat
+[99:99:99] [main/INFO]: [STDOUT]: [Compat Delight] Biomes Weve Gone detected — registering compat
+[99:99:99] [main/INFO]: Hello Fabric world!
+[99:99:99] [main/INFO]: [CopperHopper] Configuration loaded: {nbtMatchEnabledIds=minecraft:enchanted_book minecraft:potion minecraft:splash_potion minecraft:lingering_potion minecraft:arrow minecraft:tipped_arrow minecraft:spectral_arrow}
+[99:99:99] [main/INFO]: [CopperHopper] Initialized.
+[99:99:99] [main/INFO]: Finished initializing !
+[99:99:99] [main/INFO]: Mod file craftingtweaks has registered com.tom.storagemod.gui.CraftingTerminalMenu of toms_storage with CraftingTweaks
+[99:99:99] [main/INFO]: Reflections took 949 ms to scan 446 urls, producing 13296 keys and 87299 values
+[99:99:99] [main/INFO]: Registering Item Groups for cratedelight
+[99:99:99] [main/INFO]: Registering ModBLocks for cratedelight
+[99:99:99] [main/INFO]: I will try my best to heal your explosions :)
+[99:99:99] [main/INFO]: Loaded config culturaldelights-common.json
+[99:99:99] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[99:99:99] [main/INFO]: Successfully Debugify'd your game!
+[99:99:99] [main/INFO]: Loaded DEUF Refabricated Config
+[99:99:99] [main/INFO]: Disconnect Packet Fix has started.
+[99:99:99] [main/INFO]: Loaded config dumplings_delight-common.json
+[99:99:99] [main/INFO]: YAaargh!
+[99:99:99] [main/INFO]: Constructing common components for easyanvils:main
+[99:99:99] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[99:99:99] [main/INFO]: Constructing common components for easymagic:main
+[99:99:99] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[99:99:99] [main/INFO]: [STDOUT]: All 27 have been set properly
+[99:99:99] [main/INFO]: Loaded config ends_delight-common.json
+[99:99:99] [main/INFO]: [EssentialCommands]: Mod Load Initiated.
+[99:99:99] [main/INFO]: [EssentialCommands]: Mod Load Complete.
+[99:99:99] [main/WARN]: Config file had missing entry cache_dynamic_assets
+[99:99:99] [main/WARN]: Config file had missing entry generate_dynamic_assets
+[99:99:99] [main/WARN]: Config file had missing entry tab_item_search
+[99:99:99] [main/INFO]: Loaded config everycomp-common.json
+[99:99:99] [main/INFO]: Loaded config everycomp-hazardous.json
+[99:99:99] [main/INFO]: Loaded [module: farmersdelight]
+[99:99:99] [main/INFO]: Loaded [module: lolmcv]
+[99:99:99] [main/INFO]: Enchanted Vertical Slabs is loading in a Fabric environment!
+[99:99:99] [main/INFO]: [STDOUT]: All 27 have been set properly
+[99:99:99] [main/INFO]: Registering ModBlocks for expore
+[99:99:99] [main/INFO]: Registering Mod Items for expore
+[99:99:99] [main/INFO]: Registering ModItems forfancydelight
+[99:99:99] [main/INFO]: Registering ModBlocks for fancydelight
+[99:99:99] [main/INFO]: Registering ItemGroups for fancydelight
+[99:99:99] [main/INFO]: Loaded config farmersdelight-common.json
+[99:99:99] [main/INFO]: Registering Block
+[99:99:99] [main/INFO]: Registering Item
+[99:99:99] [main/INFO]: Registering Item Sub Predicate
+[99:99:99] [main/INFO]: Registering Block Entity
+[99:99:99] [main/INFO]: Registering Sound Event
+[99:99:99] [main/INFO]: Registering Entity
+[99:99:99] [main/INFO]: Registering Sensor Type
+[99:99:99] [main/INFO]: Registering Memory Module Type
+[99:99:99] [main/INFO]: Registering Feature
+[99:99:99] [main/INFO]: Registering Trunk Placer Type
+[99:99:99] [main/INFO]: Registering Tree Decorator Type
+[99:99:99] [main/INFO]: Registering Trigger Type
+[99:99:99] [main/INFO]: Registering Block State Provider Type
+[99:99:99] [main/INFO]: Registering Block Predicate Type
+[99:99:99] [main/INFO]: Registering Loot Pool Entry Type
+[99:99:99] [main/INFO]: Registering Structure Type
+[99:99:99] [main/INFO]: Registering Structure Piece Type
+[99:99:99] [main/INFO]: Registering Entity Data Serializer
+[99:99:99] [main/INFO]: Registering Loot Item Condition
+[99:99:99] [main/INFO]: Registering Trigger Type
+[99:99:99] [main/INFO]: Registering Entity Sub Predicate
+[99:99:99] [main/INFO]: Registering Mob Effect
+[99:99:99] [main/INFO]: Registering Placement Modifier
+[99:99:99] [main/INFO]: Registering Surface Rule Condition Source
+[99:99:99] [main/INFO]: Loading Universal frostwalker mod
+[99:99:99] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[99:99:99] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[99:99:99] [main/INFO]: Flattening & Hardening Glass
+[99:99:99] [main/INFO]: Creating 20 Glass Carpets
+[99:99:99] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
+[99:99:99] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
+[99:99:99] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[99:99:99] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[99:99:99] [main/INFO]: Serene Seasons detected. Enabling season modifier.
+[99:99:99] [main/INFO]: Huge Structure Blocks is now making your structure blocks even bigger!
+[99:99:99] [main/INFO]: New structure size = 512
+[99:99:99] [main/INFO]: Registering configs
+[99:99:99] [main/INFO]: Registering blocks
+[99:99:99] [main/INFO]: Registering items
+[99:99:99] [main/INFO]: Registering item groups
+[99:99:99] [main/INFO]: Registering tags
+[99:99:99] [main/INFO]: Registering entities
+[99:99:99] [main/INFO]: Registering server event handlers
+[99:99:99] [main/INFO]: Compression will use Java, encryption will use Java
+[99:99:99] [main/INFO]: Ksyxis: Booting... (platform: Fabric/KFabric, manual: false)
+[99:99:99] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.7, time: 0 ms)
+[99:99:99] [main/INFO]: Hello Hello from Decorative Lamps!
+[99:99:99] [main/INFO]: lamps: Register Item Groups
+[99:99:99] [main/INFO]: lamps: Register Items
+[99:99:99] [main/INFO]: lamps: Register Blocks
+[99:99:99] [main/INFO]: lamps: Register Effects
+[99:99:99] [main/INFO]: lamps: Load Configs
+[99:99:99] [main/INFO]: Loaded FabricRegistrationFactory for service Factory
+[99:99:99] [main/INFO]: Loaded FabricPlatformHelper for service IPlatformHelper
+[99:99:99] [main/INFO]: Config 'livingthings.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'penguin.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'elephant.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'giraffe.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'lion.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'shark.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'ostrich.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'flamingo.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'crab.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'mantaray.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'raccoon.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'owl.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'ancient_blaze.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'koala.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'snail.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'monkey.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'nether_knight.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'shroomie.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'seahorse.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'baby_ender_dragon.json' was successfully loaded.
+[99:99:99] [main/INFO]: Config 'peacock.json' was successfully loaded.
+[99:99:99] [main/INFO]: Registering MobAttributes
+[99:99:99] [main/INFO]: Registering SpawnPlacements
+[99:99:99] [main/INFO]: MCMV-AFT:"AFT loaded."
+[99:99:99] [main/INFO]: Macaw's Biomes O' Plenty Loading...
+[99:99:99] [main/INFO]: Macaw's Biomes O' Plenty Is Charged !
+[99:99:99] [main/INFO]: Macaw's Oh The Biomes We've Gone Loading...
+[99:99:99] [main/INFO]: Macaw's Oh The Biomes We've Gone Is Charged !
+[99:99:99] [ForkJoinPool.commonPool-worker-6/INFO]: A new version of Essential Commands is available. Current: '0.35.2-mc1.21' Latest: '0.37.4-mc1.21.6
+'. Get the new version at https://modrinth.com/mod/essential-commands
+[99:99:99] [main/INFO]: Definitely not up to no good
+[99:99:99] [main/INFO]: Definitely not up to no good
+[99:99:99] [main/INFO]: Thanks to isXander (https://github.com/isXander) for helping me get into Kotlin from Java :D
+[99:99:99] [main/INFO]: [STDOUT]: No matching files were found.
+[99:99:99] [main/WARN]: Config file had missing entry extra_children_debug
+[99:99:99] [main/INFO]: Loaded config moonlight-common.json
+[99:99:99] [main/INFO]: Giving mobs a fresh coat of paint...
+[99:99:99] [main/INFO]: Registering Effects...
+[99:99:99] [main/INFO]: Registering Mythic Items for mythicupgrades
+[99:99:99] [main/INFO]: Registering Mythic Blocks for mythicupgrades
+[99:99:99] [main/INFO]: Registering resource pack 32x...
+[99:99:99] [main/INFO]: Successfully registered resource pack 32x.
+[99:99:99] [main/INFO]: Mythic Upgrades works properly! CAN, ANNENE SELAMLAR KARDESIM! <3
+[99:99:99] [main/INFO]: Chase your dreams, no matter the cost. Don't wait for invitations, take action. Making a decision, starting something - that's half the battle of achieving success.
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: sugi_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: windswept_sugi_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: blooming_sugi_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: lavender_fields
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: marsh
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: bamboo_wetlands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: wisteria_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: redwood_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: snowy_redwood_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: aspen_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: maple_woodlands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: golden_wilds
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: marigold_meadows
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: fir_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: snowy_fir_forest
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: cypress_fields
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: carnation_fields
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: stratified_desert
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: blooming_dunes
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: lively_dunes
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: drylands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: wooded_drylands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: xeric_plains
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: cedar_thicket
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: white_cliffs
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: prairie
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: oak_savanna
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: heather_fields
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: tundra
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: alpine_clearings
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: alpine_highlands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: coniferous_covert
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: boreal_taiga
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: tropical_shores
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: tropical_woods
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: sparse_tropical_woods
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: tropical_basin
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: arid_savanna
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: scorched_dunes
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: flowering_shrubland
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: shrubland
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: arid_highlands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: shrubby_highlands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: woody_highlands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: red_peaks
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: dusty_slopes
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: snowcapped_red_peaks
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: sleeted_slopes
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: blooming_highlands
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: chaparral
+[99:99:99] [main/INFO]: [STDOUT]: Registered Resource Key for biome: floral_ridges
+[99:99:99] [main/INFO]: Loading Noisium.
+[99:99:99] [main/INFO]: [STDOUT]: All 27 have been set properly
+[99:99:99] [main/INFO]: Registering Items for oceansdelight
+[99:99:99] [main/INFO]: Registering Blocks for oceansdelight
+[99:99:99] [main/INFO]: Registering tabs for oceansdelight
+[99:99:99] [main/INFO]: dead people should put things in their grave, I have bills to pay - Blodgharm
+[99:99:99] [main/INFO]: pearfection has been initialized.
+[99:99:99] [main/INFO]: Constructing common components for puzzleslib:main
+[99:99:99] [main/INFO]: [Quad] Initialising the Quad mod power! >:P
+[99:99:99] [main/INFO]: [Quad] loaded default fuel values
+[99:99:99] [main/INFO]: [Quad] loaded quad fuel tags
+[99:99:99] [main/INFO]: [RecipeCooldown] RecipeCooldown loaded
+[99:99:99] [main/INFO]: Registering items for rusticdelight
+[99:99:99] [main/INFO]: Registering blocks for rusticdelight
+[99:99:99] [main/INFO]: Registering potions for rusticdelight
+[99:99:99] [main/INFO]: Registering biome modifications for rusticdelight
+[99:99:99] [main/INFO]: Registering item group for rusticdelight
+[99:99:99] [main/INFO]: Initializing Silk
+[99:99:99] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 1 Datafixer optimizations took 5 milliseconds
+[99:99:99] [main/INFO]: Loading config SimpleCopperPipesConfig from simple_copper_pipes
+[99:99:99] [main/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
+[99:99:99] [main/INFO]: SereneSeasons detected. Overriding weather behavior.
+[99:99:99] [main/INFO]: Deserializing SnowUnderTreesConfig from '.\config\snowundertrees.config.json'
+[99:99:99] [main/INFO]: Serene Seasons detected!
+[99:99:99] [main/INFO]: Registering Mod Blocks for spanishdelight
+[99:99:99] [main/INFO]: Registering Item Groups forspanishdelight
+[99:99:99] [main/INFO]: Registering Mod Items for spanishdelight
+[99:99:99] [main/INFO]: [Spawn Animations] MidnightLib detected!
+[99:99:99] [main/INFO]: [Spawn Animations] Registering server started event ...
+[99:99:99] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[99:99:99] [main/INFO]: Registering furniture fuels for storagedelight
+[99:99:99] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[99:99:99] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[99:99:99] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[99:99:99] [main/INFO]: Loading config WWWorldgenConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[99:99:99] [main/INFO]: Registered region biomeswevegone:region_0 to index 4 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region biomeswevegone:region_1 to index 5 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region biomeswevegone:region_2 to index 6 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region fishofthieves:tropical_island to index 7 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region natures_spirit:terra_ferax to index 8 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region natures_spirit:terra_solaris to index 9 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region natures_spirit:terra_flava to index 10 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region natures_spirit:terra_mater to index 11 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region natures_spirit:terra_laeta to index 12 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region vanillabackport:overworld to index 13 for type OVERWORLD
+[99:99:99] [main/INFO]: Registered region wilderwild:overworld to index 14 for type OVERWORLD
+[99:99:99] [main/INFO]: Time Stacker has been initialized successfully
+[99:99:99] [main/INFO]: Tom's Storage Setup starting
+[99:99:99] [main/INFO]: Tom's Trading Network starting
+[99:99:99] [main/INFO]: Constructing common components for tradingpost:main
+[99:99:99] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[99:99:99] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[99:99:99] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[99:99:99] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[99:99:99] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 4
+[99:99:99] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:water_canteen for Water (Fluid Amount Required: 200) with the ID 5
+[99:99:99] [main/INFO]: Registered the FluidEffect with Unique ID of toughasnails:water for Water (Fluid Amount Required: 81000) with the ID 6
+[99:99:99] [main/INFO]: Loading config.
+[99:99:99] [main/INFO]: Nice weather today, huh?
+[99:99:99] [main/INFO]: Deserializing ModMobsConfig from 'config\variantsandventures\mod_mobs.json'
+[99:99:99] [main/INFO]: Deserializing VanillaMobsConfig from 'config\variantsandventures\vanilla_mobs.json'
+[99:99:99] [main/INFO]: Veinminer Version: 2.4.2 (fabric)
+[99:99:99] [main/INFO]: Veinminer-Enchantment Version: 2.2.2 (fabric)
+[99:99:99] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[99:99:99] [main/INFO]: Constructing common components for visualworkbench:main
+[99:99:99] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[99:99:99] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 3
+[99:99:99] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 2 Datafixer optimizations took 6 milliseconds
+[99:99:99] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
+[99:99:99] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 28
+[99:99:99] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 27 Datafixer optimizations took 13 milliseconds
+[99:99:99] [main/INFO]: DataFixes for Wilder Wild have been applied
+[99:99:99] [main/INFO]: Adding Music And Ambience for wilderwild
+[99:99:99] [main/INFO]: Overriding Water Colors for wilderwild
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[99:99:99] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[99:99:99] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[99:99:99] [main/INFO]: Distant Horizons, Version: 2.3.4-b
+[99:99:99] [main/INFO]: Registering Fabric Server Events
+[99:99:99] [main/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[99:99:99] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[99:99:99] [main/INFO]: Processing 5 KiwiModule annotations
+[99:99:99] [main/INFO]: Module [snowrealmagic:core] initialized
+[99:99:99] [main/INFO]: 		block: 11, block_entity_type: 2, loot_pool_entry_type: 1
+[99:99:99] [main/INFO]: Module [kiwi:data] initialized
+[99:99:99] [main/INFO]: 		recipe_serializer: 2
+[99:99:99] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[99:99:99] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[99:99:99] [main/INFO]: [STDOUT]: Starting Mo Glass...
+[99:99:99] [main/INFO]: Initialized block sets in 46ms
+[99:99:99] [main/INFO]: Registering Compat WoodType Blocks
+[99:99:99] [main/INFO]: [module: farmersdelight]: registered 47 WoodType blocks
+[99:99:99] [main/INFO]: [module: lolmcv]: registered 128 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwbridges]: registered 162 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwdoors]: registered 567 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwfences]: registered 162 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwlights]: registered 192 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwpaths]: registered 27 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwroofs]: registered 378 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwtrpdoors]: registered 432 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwwindows]: registered 459 WoodType blocks
+[99:99:99] [main/INFO]: [module: mcwfurnitures]: registered 1456 WoodType blocks
+[99:99:99] [main/INFO]: [module: wilderwild]: registered 116 WoodType blocks
+[99:99:99] [main/INFO]: Registering Compat LeavesType Blocks
+[99:99:99] [main/INFO]: [module: mcwfences]: registered 71 LeavesType blocks
+[99:99:99] [main/INFO]: Loaded config everycomp-entries.json
+[99:99:99] [main/INFO]: Loaded config smarterfarmers-common.json
+[99:99:99] [main/INFO]: Every Compat has loaded 12 modules: [farmersdelight, lolmcv, mcwbridges, mcwdoors, mcwfences, mcwlights, mcwpaths, mcwroofs, mcwtrpdoors, mcwwindows, mcwfurnitures, wilderwild]
+[99:99:99] [main/INFO]: Registered 4197 compat children making up 19.01% of total children registered
+[99:99:99] [main/INFO]: Initialized color sets in 110ms
+[99:99:99] [main/INFO]: Initiated Wilder Wild & Simple Copper Pipes compat!
+[99:99:99] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[99:99:99] [main/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
+[99:99:99] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[99:99:99] [main/ERROR]: Registry 'moonlight:custom_map_data_types' was empty after loading
+[99:99:99] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[99:99:99] [main/WARN]: Missing data pack everycomp:generated_pack
+[99:99:99] [main/INFO]: Found new data pack everycomp:dynamic_resources, loading it automatically
+[99:99:99] [main/INFO]: Starting runtime resource generation for pack type SERVER_DATA with generators [everycomp:dynamic_resources]
+[99:99:99] [main/INFO]: Regenerating Dynamic SERVER_DATA Resources Provider [everycomp:dynamic_resources] due to cache strategy requested refresh
+[99:99:99] [main/INFO]: Every Compat is starting dynamic server resources generation tasks: 146 in batches of 12
+[99:99:99] [main/INFO]: Generated runtime SERVER_DATA for pack everycomp:dynamic_resources in 2457 ms
+[99:99:99] [main/INFO]: Finished runtime resources generation for 1 packs in a total of 2458 ms
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/gloomy_cactus_fruit_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:echo_fruit_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/echo_fruit_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:gloomy_cactus_fruit_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/culturaldelights:blocks/exotic_roll_medley_block - Failed to parse either. First: Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: culturaldelights:exotic_roll_medley_block; Second: Not a json array: {"condition":"minecraft:block_state_property","block":"culturaldelights:exotic_roll_medley_block","properties":{"servings":"8"}}; Second: Not a json array: {"condition":"minecraft:inverted","term":{"condition":"minecraft:block_state_property","block":"culturaldelights:exotic_roll_medley_block","properties":{"servings":"8"}}}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: culturaldelights:exotic_roll_medley_block; Second: Not a json array: {"condition":"minecraft:block_state_property","block":"culturaldelights:exotic_roll_medley_block","properties":{"servings":"8"}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: culturaldelights:exotic_roll_medley_block
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/ender_wisp - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":4.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:ender_wisp_pollen
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/forest_mojo - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:yellow_berry; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:purple_berry; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:green_berry; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/friendsandfoes:entities/wildfire - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:wildfire_meat; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: friendsandfoes:wildfire_crown_fragment
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/datura_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:datura_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/coconut_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:coconut_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/bastion_pod_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:glowing_jelly_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/crescent_fruit_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:crescent_fruit_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/purple_archwood_cabinet - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:purple_archwood_cabinet
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/cucumber_plant - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: compatdelight:cucumber_plant; Second: Not a json array: {"condition":"minecraft:block_state_property","block":"compatdelight:cucumber_plant","properties":{"age":"3"}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:cucumber_seeds; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:cucumber_seeds; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: compatdelight:cucumber_plant; Second: Not a json array: {"condition":"minecraft:block_state_property","block":"compatdelight:cucumber_plant","properties":{"age":"3"}}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/peacock_spider_level3 - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:peacock_string
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/peacock_spider_level2 - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:peacock_string
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/nether_wisp - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":4.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:nether_wisp_pollen
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/deeperdarker:entities/shriek_worm - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","min":0.0,"max":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:sculk_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/friendsandfoes:entities/rascal - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"min":0.0,"max":1.0}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:rascal_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/friendsandfoes:entities/glare - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"min":0.0,"max":1.0}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:glare_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"min":0.0,"max":1.0}}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mowziesmobs:entities/sculptor - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:peach_leaf; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:peach_blossom; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:geomancer_sandals; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:geomancer_belt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:geomancer_robe; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:geomancer_beads; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:sculptor_staff
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/friendsandfoes:entities/tuff_golem - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:tuff_golem_heart
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/bygonenether:entities/wraither - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:wraither_flesh; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: minecraft:random_chance_with_looting; Second: Not a json array: {"condition":"minecraft:random_chance_with_looting","chance":0.025,"looting_multiplier":0.01}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"type":"minecraft:uniform","min":0.0,"max":1.0}}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"type":"minecraft:uniform","min":0.0,"max":1.0}}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mowziesmobs:entities/umvuthi - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":1,"max":2}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:umvuthana; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":0,"max":2}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:sol_visage
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mutantmonsters:entities/mutant_skeleton - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:mutant_skeleton_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/minecraft:entities/warden - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"min":0,"max":1}}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mowziesmobs:entities/ferrous_wroughtnaut - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":1,"max":2}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:edible_iron_piece; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:wrought_axe; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:wrought_helmet
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mutantmonsters:entities/mutant_snow_golem - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:mutant_snow_golem_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mutantmonsters:entities/mutant_enderman - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:mutant_enderman_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/scorpion - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:scorpion
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/prickly_pear_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:prickly_pear_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/ad_astra:entities/martian_raptor - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":0,"max":1}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:raw_martian_raptor_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/frostaya_pod_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:frostaya_pod_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/bombegranate_pod_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:bombegranate_pod_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/draconicevolution:entities/chaos_guardian - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","min":1.0,"max":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:dragon_chaos_steak
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/painted_acacia_cabinet - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:painted_acacia_cabinet
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/corpse_eater - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":6.0,"min":3.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:corpse_eater_bone
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/walnut_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:walnut_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/palegarden:entities/creaking - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/red_archwood_cabinet - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:red_archwood_cabinet
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/deeperdarker:entities/shattered - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","min":0.0,"max":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:sculk_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: deeperdarker:sculk_bone
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mutantmonsters:entities/spider_pig - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:spider_pig_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"min":0.0,"max":1.0}}; No key value in MapLike[{"type":"minecraft:loot_table","name":"minecraft:entities/pig"}]
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/yungscavebiomes:entities/sand_snapper - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:sand_snapper
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/cheese_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:cheese_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/glowing_jelly_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:glowing_jelly_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/deeperdarker:entities/sculk_centipede - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","min":0.0,"max":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:sculk_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mowziesmobs:entities/frostmaw - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:frostmaw_steak; Failed to parse either. First: Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: mowziesmobs:has_crystal; Second: Not a json array: {"condition":"mowziesmobs:has_crystal"}; Second: Not a json array: {"condition":"minecraft:inverted","term":{"condition":"mowziesmobs:has_crystal"}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:music_disc_petiole; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: mowziesmobs:has_crystal; Second: Not a json array: {"condition":"mowziesmobs:has_crystal"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:ice_crystal
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/trailandtales_delight:blocks/lantern_fruits - Failed to parse either. First: Not a string: false; Second: Not a JSON object: false missed input: {"ropelogged":false}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/botania:gaia_guardian - Failed to get element compatdelight:terrasteel_knife; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: botania:killed_by_player; Second: Not a json array: {"condition":"botania:killed_by_player"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:gaia_apple; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: botania:killed_by_player; Second: Not a json array: {"condition":"botania:killed_by_player"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: botania:record_gaia_1; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: botania:killed_by_player; Second: Not a json array: {"condition":"botania:killed_by_player"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: botania:true_guardian_killer; Second: Not a json array: {"condition":"botania:true_guardian_killer"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: botania:life_essence
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/bygonenether:entities/piglin_prisoner - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:piglin_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/friendsandfoes:entities/crab - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"type":"minecraft:uniform","min":0.0,"max":1.0}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:crab_meat; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: friendsandfoes:crab_claw
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/wisp - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":4.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:wisp_pollen
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/yungscavebiomes:entities/ice_cube - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:ice_cube
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/solnut_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:solnut_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mutantmonsters:entities/mutant_zombie - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:mutant_rotten_flesh; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mutantmonsters:hulk_hammer
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/deeperdarker:entities/sculk_snapper - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","min":0.0,"max":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:sculk_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: deeperdarker:soul_dust
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/deeperdarker:entities/stalker - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","min":0.0,"max":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:stalker_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: deeperdarker:soul_crystal
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/blue_archwood_cabinet - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:bastion_pod_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/minecraft:entities/ender_dragon - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"min":0,"max":1}}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/culturaldelights:blocks/avocado_leaf_carpet - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: culturaldelights:avocado_leaf_carpet
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/bygonenether:entities/piglin_hunter - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:piglin_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/culturaldelights:blocks/avocado_bundle - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: culturaldelights:avocado_bundle
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mutantmonsters:entities/mutant_creeper - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:mutant_creeper_meat; Failed to parse either. First: Unknown element name:killer; Second: Not a json array: {"condition":"minecraft:entity_properties","predicate":{"type":"#minecraft:skeletons"},"entity":"killer"}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/crab_claw_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:crab_claw_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/mendosteen_pod_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:mendosteen_pod_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/ars_nouveau:entities/wilden_guardian - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:wilden_guardian_steak; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: ars_nouveau:wilden_spike
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/deeperdarker:entities/angler_fish - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:angler_fish
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mowziesmobs:entities/grottol - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:grottol_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: mowziesmobs:grottol_death_type; Second: Not a json array: {"function":"mowziesmobs:grottol_death_type"}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/stalwart_dungeons:entities/shelterer_without_armor - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:propulk; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: stalwart_dungeons:void_crystal
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/bygonenether:entities/warped_enderman - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:warped_enderman; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_condition_type]: minecraft:random_chance_with_looting; Second: Not a json array: {"condition":"minecraft:random_chance_with_looting","chance":0.25,"looting_multiplier":0.01}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"type":"minecraft:uniform","min":0.0,"max":1.0}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bygonenether:warped_ender_pearl
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/green_archwood_cabinet - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:blue_archwood_cabinet
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/stalwart_dungeons:entities/shelterer - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:propulk; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: stalwart_dungeons:void_crystal
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/stalwart_dungeons:entities/awful_ghast - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:awful_chast; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: stalwart_dungeons:awful_crystal; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: stalwart_dungeons:awful_gun
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/cryo_root_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:cryo_root_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/bygonenether:entities/wex - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:cooked_wex_meat
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/scorpion_level2 - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:scorpion
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/mowziesmobs:entities/naga - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":1,"max":4}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:naga_heart; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":2,"max":4}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:naga_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":0,"max":1}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:nagi_tail; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"looting_enchant","count":{"min":0,"max":1}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mowziesmobs:naga_fang
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/deeperdarker:entities/sculk_leech - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:sculk_leech; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: deeperdarker:soul_dust
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/living_root_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:living_root_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/minecraft:entities/wither - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"function":"minecraft:looting_enchant","count":{"min":0,"max":1}}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/pearfection:blocks/callery_pickets - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: pearfection:callery_pickets; Second: Not a json array: {"block":"pearfection:callery_pickets","condition":"minecraft:block_state_property","properties":{"west":"true"}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: pearfection:callery_pickets; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: pearfection:callery_pickets; Second: Not a json array: {"block":"pearfection:callery_pickets","condition":"minecraft:block_state_property","properties":{"south":"true"}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: pearfection:callery_pickets; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: pearfection:callery_pickets; Second: Not a json array: {"block":"pearfection:callery_pickets","condition":"minecraft:block_state_property","properties":{"east":"true"}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: pearfection:callery_pickets; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: pearfection:callery_pickets; Second: Not a json array: {"block":"pearfection:callery_pickets","condition":"minecraft:block_state_property","properties":{"north":"true"}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: pearfection:callery_pickets
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/peacock_spider - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:peacock_string
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/trailandtales_delight:blocks/pottery_cooking_pot - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: farmersdelight:copy_meal; Second: Not a json array: {"function":"farmersdelight:copy_meal"}
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/compatdelight:blocks/source_berry_box - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:source_berry_box
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/ars_nouveau:entities/wilden_stalker - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:wilden_stalker_meat; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":1.0,"min":0.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: ars_nouveau:wilden_wing
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/legendarycreatures:entities/hound - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":4.0,"min":2.0},"function":"minecraft:looting_enchant"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: compatdelight:hound; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:looting_enchant; Second: Not a json array: {"count":{"type":"minecraft:uniform","max":2.0,"min":1.0},"function":"minecraft:looting_enchant"}
+[99:99:99] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/pineapple_delight:blocks/pineapple_wild_crop}.pools[0].entries[0]: Unreachable entry!
+[99:99:99] [Worker-Main-3/INFO]: Loaded Fabric Permissions
+[99:99:99] [Worker-Main-3/INFO]: Command '/livingthings' registered
+[99:99:99] [Worker-Main-3/INFO]: Command '/random_mob_sizes' registered
+[99:99:99] [Worker-Main-3/INFO]: Command '/mobscalings' registered
+[99:99:99] [Worker-Main-3/INFO]: 
+commandaliases
+├── flanbuy.yaml - Successfully loaded
+├── flanlist.yaml - Successfully loaded
+├── flanmenu.yaml - Successfully loaded
+├── flanname.yaml - Successfully loaded
+├── flansell.yaml - Successfully loaded
+├── flansetHome.yaml - Successfully loaded
+├── flanteleport.yaml - Successfully loaded
+├── gamemodecreative.yaml - Successfully loaded
+├── gamemodespectator.yaml - Successfully loaded
+├── gamemodesurvival.yaml - Successfully loaded
+├── homedelete.yaml - Successfully loaded
+├── homelist.yaml - Successfully loaded
+├── homeset.yaml - Successfully loaded
+├── hometp.yaml - Successfully loaded
+├── saveallflush.yaml - Successfully loaded
+├── saveallflush2.yaml - Successfully loaded
+└── yigdgrave.yaml - Successfully loaded
+[99:99:99] [Worker-Main-3/INFO]: Registered/Reloaded all your commands :P, you can now single command nuke!
+[99:99:99] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bypasses_effects as it is missing following references: saturative-overhaul:overeating (from saturative-overhaul)
+[99:99:99] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bypasses_resistance as it is missing following references: saturative-overhaul:overeating (from saturative-overhaul)
+[99:99:99] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bypasses_armor as it is missing following references: saturative-overhaul:overeating (from saturative-overhaul)
+[99:99:99] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:bypasses_shield as it is missing following references: #minecraft:bypasses_armor (from vanilla), saturative-overhaul:overeating (from saturative-overhaul)
+[99:99:99] [Worker-Main-7/ERROR]: Couldn't load tag minecraft:no_knockback as it is missing following references: saturative-overhaul:overeating (from saturative-overhaul)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't read tag list toughasnails:hydration/40_hydration_drinks from toughasnails:tags/item/hydration/40_hydration_drinks.json in data pack culturaldelights
+java.lang.IllegalStateException: Not a JSON object: null
+	at knot/com.mojang.serialization.DataResult$Error.md57ca87$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_3503.method_33174(class_3503.java:53) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3503.method_33176(class_3503.java:128) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3505.method_33181(class_3505.java:46) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[99:99:99] [Worker-Main-7/WARN]: Found data map file for non-existent data map type 'dumplings_delight:compostables' on registry 'minecraft:item'.
+[99:99:99] [Worker-Main-3/ERROR]: Couldn't parse data file exlinecopperequipment:recipes/misc/copper_bucket from exlinecopperequipment:advancement/recipes/misc/copper_bucket.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 6 column 6 path $.rewards.recipes[1]
+	at knot/net.minecraft.class_3518.method_47993(class_3518.java:527) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3518.method_15267(class_3518.java:532) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3518.method_15276(class_3518.java:582) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 6 column 6 path $.rewards.recipes[1]
+	at knot/com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1465) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.stream.JsonReader.doPeek(JsonReader.java:569) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.1.jar:?]
+	at knot/com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.1.jar:?]
+	at knot/net.minecraft.class_3518.method_47993(class_3518.java:525) ~[server-intermediary.jar:?]
+	... 13 more
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:venison as it is missing following references: naturalist:venison (from compatdelight), compatdelight:cut_venison (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:sand_shapper as it is missing following references: compatdelight:sand_shapper (from compatdelight), compatdelight:cut_sand_shapper (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_umvuthana as it is missing following references: compatdelight:cooked_umvuthana (from compatdelight), compatdelight:cut_cooked_umvuthana (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:sculk_meat as it is missing following references: compatdelight:sculk_meat (from compatdelight), compatdelight:cut_sculk_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:wilden_guardian_steak as it is missing following references: compatdelight:wilden_guardian_steak (from compatdelight), compatdelight:cut_wilden_guardian_steak (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:stalker_meat as it is missing following references: compatdelight:stalker_meat (from compatdelight), compatdelight:cut_stalker_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_sand_shapper as it is missing following references: compatdelight:cooked_sand_shapper (from compatdelight), compatdelight:cut_cooked_sand_shapper (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:rascal_meat as it is missing following references: compatdelight:cooked_rascal_meat (from compatdelight), compatdelight:rascal_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:salad_ingredients as it is missing following references: #forge:salad_ingredients/cucumber (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_wilden_guardian_steak as it is missing following references: compatdelight:cooked_wilden_guardian_steak (from compatdelight), compatdelight:cut_cooked_wilden_guardian_steak (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_suavis as it is missing following references: midnight:cooked_suavis (from compatdelight), compatdelight:cut_cooked_suavis (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag morecompvarsns:logs as it is missing following references: #natures_spirit:alluaudia_bundles (from mr_more_compatibilityvariantsns)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:crab_meat as it is missing following references: compatdelight:cooked_crab_meat (from compatdelight), compatdelight:crab_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cut_stag_flank as it is missing following references: midnight:raw_stag_flank (from compatdelight), compatdelight:cut_stag_flank (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:blue_cheese as it is missing following references: rats:blue_cheese (from compatdelight), compatdelight:blue_cheese_slice (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_bass as it is missing following references: naturalist:cooked_bass (from compatdelight), compatdelight:cut_cooked_bass (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:oil as it is missing following references: compatdelight:datura_oil (from compatdelight), compatdelight:tallow_bootle (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:vegetables as it is missing following references: #forge:vegetables/cucumber (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag farm_and_charm:vegetables as it is missing following references: #c:vegetables (from farm_and_charm)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_grottol_meat as it is missing following references: compatdelight:cooked_grottol_meat (from compatdelight), compatdelight:cut_cooked_grottol_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:raw_martian_raptor_meat as it is missing following references: compatdelight:raw_martian_raptor_meat (from compatdelight), compatdelight:cut_raw_martian_raptor (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:dusts as it is missing following references: compatdelight:soap_dust (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:crops as it is missing following references: #forge:crops/compatdelight (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag farm_and_charm:crops as it is missing following references: #c:crops (from farm_and_charm)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:seeds as it is missing following references: #forge:seeds/cucumber (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag compatdelight:propulk as it is missing following references: compatdelight:propulk (from compatdelight), compatdelight:cooked_propulk (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:bass as it is missing following references: naturalist:bass (from compatdelight), compatdelight:cut_bass (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_sculk_leech as it is missing following references: compatdelight:cooked_sculk_leech (from compatdelight), compatdelight:cut_cooked_sculk_leech (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:angler_fish as it is missing following references: compatdelight:angler_fish (from compatdelight), compatdelight:cut_angler_fish (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag emeraldequipment:pickaxes as it is missing following references: emeraldequipment:emerald_pick (from emeraldequipment)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag compatdelight:awful_chast as it is missing following references: compatdelight:awful_chast (from compatdelight), compatdelight:cooked_awful_chast (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:ice_cube as it is missing following references: compatdelight:ice_cube (from compatdelight), compatdelight:cut_ice_cube (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:juice as it is missing following references: bewitchmentdelight:aqua_juice (from compatdelight), bewitchmentdelight:cleansing_juice (from compatdelight), bewitchmentdelight:earth_juice (from compatdelight), bewitchmentdelight:fiery_juice (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_stalker_meat as it is missing following references: compatdelight:cooked_stalker_meat (from compatdelight), compatdelight:cut_cooked_stalker_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:wilden_stalker_meat as it is missing following references: compatdelight:wilden_stalker_meat (from compatdelight), compatdelight:cut_wilden_stalker_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:naga_meat as it is missing following references: compatdelight:naga_meat (from compatdelight), compatdelight:cut_naga_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:carrot as it is missing following references: compatdelight:pollen_carrot (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cut_suavis as it is missing following references: midnight:raw_suavis (from compatdelight), compatdelight:cut_suavis (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_wilden_stalker_meat as it is missing following references: compatdelight:cooked_wilden_stalker_meat (from compatdelight), compatdelight:cut_cooked_wilden_stalker_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_sculk_meat as it is missing following references: compatdelight:cooked_sculk_meat (from compatdelight), compatdelight:cut_cooked_sculk_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_venison as it is missing following references: naturalist:cooked_venison (from compatdelight), compatdelight:cut_cooked_venison (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:dropleaf as it is missing following references: regions_unexplored:dropleaf (from compatdelight), compatdelight:cut_dropleaf (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:duck as it is missing following references: naturalist:duck (from compatdelight), compatdelight:cut_duck (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag compatdelight:sawdust as it is missing following references: mekanism:sawdust (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_lizard as it is missing following references: naturalist:cooked_lizard (from compatdelight), compatdelight:cut_cooked_lizard (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag compatdelight:nature_essence as it is missing following references: mysticalagriculture:nature_essence (from compatdelight), compatdelight:farmers_essence (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:geomancer_beads as it is missing following references: mowziesmobs:geomancer_beads (from compatdelight), compatdelight:geomancer_shard (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag farm_and_charm:flour as it is missing following references: #forge:flour (from farm_and_charm)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_card as it is missing following references: compatdelight:cut_card (from compatdelight), compatdelight:cooked_card (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag compatdelight:peach as it is missing following references: compatdelight:peach_blossom (from compatdelight), compatdelight:peach_leaf (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:pineapple as it is missing following references: tropicraft:pineapple (from compatdelight), compatdelight:pineapple_slice (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:catfish as it is missing following references: naturalist:catfish (from compatdelight), compatdelight:cut_catfish (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cheese as it is missing following references: compatdelight:cheese_slice (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:sculk_leech as it is missing following references: compatdelight:sculk_leech (from compatdelight), compatdelight:cut_sculk_leech (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_catfish as it is missing following references: naturalist:cooked_catfish (from compatdelight), compatdelight:cut_cooked_catfish (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_martian_raptor_meat as it is missing following references: compatdelight:cooked_martian_raptor_meat (from compatdelight), compatdelight:cut_cooked_martian_raptor (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag farm_and_charm:seeds as it is missing following references: #c:seeds (from farm_and_charm)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:lizard_tail as it is missing following references: naturalist:lizard_tail (from compatdelight), compatdelight:cut_lizard_tail (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:dust as it is missing following references: compatdelight:bone_dust (from compatdelight), compatdelight:soap_dust (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:grottol_meat as it is missing following references: compatdelight:cooked_grottol_meat (from compatdelight), compatdelight:cut_grottol_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:frostmaw_steak as it is missing following references: compatdelight:frostmaw_steak (from compatdelight), compatdelight:cut_frostmaw_steak (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_naga_meat as it is missing following references: compatdelight:cooked_naga_meat (from compatdelight), compatdelight:cut_cooked_naga_meat (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:nether_cheese as it is missing following references: rats:nether_cheese (from compatdelight), compatdelight:nether_cheese_slice (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_angler_fish as it is missing following references: compatdelight:cooked_angler_fish (from compatdelight), compatdelight:cut_cooked_angler_fish (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag toughasnails:heating_held_items as it is missing following references: earlystage:lava_brick_bucket (from file/tough_as_nails_addon)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_ice_cube as it is missing following references: compatdelight:cooked_ice_cube (from compatdelight), compatdelight:cut_cooked_ice_cube (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:umvuthana as it is missing following references: compatdelight:umvuthana (from compatdelight), compatdelight:cut_umvuthana (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_root as it is missing following references: compatdelight:living_root (from compatdelight), compatdelight:cooked_root (from compatdelight)
+[99:99:99] [Worker-Main-6/ERROR]: Couldn't load tag c:cooked_duck as it is missing following references: naturalist:cooked_duck (from compatdelight), compatdelight:cut_cooked_duck (from compatdelight)
+[99:99:99] [main/INFO]: Loaded 22386 recipes
+[99:99:99] [main/ERROR]: Failed to load function spawnanimations:internal/entity/ehs/pehkui/hide
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 12: ...ale delay <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 12: ...ale delay <--[HERE]
+	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5349.method_29451(class_5349.java:89) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[99:99:99] [main/ERROR]: Failed to load function spawnanimations:internal/entity/ehs/pehkui/enderman/unhide
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 12: ...ale reset <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 12: ...ale reset <--[HERE]
+	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5349.method_29451(class_5349.java:89) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[99:99:99] [main/ERROR]: Failed to load function spawnanimations:internal/entity/ehs/pehkui/check_installed
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 10: scale get <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 10: scale get <--[HERE]
+	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5349.method_29451(class_5349.java:89) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[99:99:99] [main/ERROR]: Failed to load function spawnanimations:internal/entity/ehs/pehkui/unhide
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 12: ...ale delay <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 12: ...ale delay <--[HERE]
+	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5349.method_29451(class_5349.java:89) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[99:99:99] [main/ERROR]: Failed to load function spawnanimations:internal/entity/ehs/pehkui/enderman/hide
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 10: scale set <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected double at position 10: scale set <--[HERE]
+	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5349.method_29451(class_5349.java:89) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[99:99:99] [main/INFO]: Loading config WWAmbienceAndMiscConfig from wilderwild
+[99:99:99] [main/INFO]: Saving config WWAmbienceAndMiscConfig from wilderwild
+[99:99:99] [main/ERROR]: Couldn't load advancements: [obsidianequipment:recipe/misc/obsidian_hoe, obsidianequipment:recipe/misc/obsidian_pickaxe, obsidianequipment:recipe/misc/obsidian_shovel, obsidianequipment:recipe/misc/obsidian_helm, obsidianequipment:recipe/misc/obsidian, obsidianequipment:recipe/misc/obsidian_sword, dungeons_arise:find_plague_asylum, obsidianequipment:recipe/misc/obsidian_leggs, dungeons_arise:find_fishing_hut, obsidianequipment:recipe/misc/obsidian_boots, obsidianequipment:recipe/misc/obsidian_chest, obsidianequipment:recipe/misc/obsidian_ingot, obsidianequipment:recipe/misc/obsidian_axe]
+[99:99:99] [main/INFO]: Loaded 7351 advancements
+[99:99:99] [main/ERROR]: Couldnt parse claim permission json flan:wrenches_ae2 java.lang.IllegalStateException: Failed to parse either. First: Not a tag valueappliedenergistics2:certus_quartz_wrench; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: appliedenergistics2:certus_quartz_wrench; Failed to parse either. First: Not a tag valueappliedenergistics2:nether_quartz_wrench; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: appliedenergistics2:nether_quartz_wrench
+[99:99:99] [main/ERROR]: Couldnt parse claim permission json flan:mekanism_bin java.lang.IllegalStateException: Failed to parse either. First: Not a tag valuemekanism:creative_bin; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: mekanism:creative_bin; Failed to parse either. First: Not a tag valuemekanism:ultimate_bin; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: mekanism:ultimate_bin; Failed to parse either. First: Not a tag valuemekanism:advanced_bin; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: mekanism:advanced_bin; Failed to parse either. First: Not a tag valuemekanism:basic_bin; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: mekanism:basic_bin
+[99:99:99] [main/ERROR]: Couldnt parse claim permission json flan:npc java.lang.IllegalStateException: Failed to parse either. First: Not a tag valuetaterzens:npc; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_type]: taterzens:npc
+[99:99:99] [main/INFO]: Loaded 11 cake effects
+[99:99:99] [main/INFO]: Reloading config...
+[99:99:99] [main/INFO]: Loaded 44 chiseling recipes
+[99:99:99] [ForkJoinPool.commonPool-worker-6/INFO]: Loaded 551 translation keys
+[99:99:99] [main/INFO]: Reloading grave shape (server)
+[99:99:99] [main/INFO]: Grave model and shape reload successful (server)
+[99:99:99] [main/INFO]: Reloading YIGD graveyard data (server)
+[99:99:99] [main/INFO]: Graveyard data successfully reloaded (server)
+[99:99:99] [main/INFO]: Reloading YIGD grave area overrides (server)
+[99:99:99] [main/INFO]: Grave area overrides successfully reloaded (server)
+[99:99:99] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: immersive_weathering:leaf_piles
+[99:99:99] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:seeds, minecraft:music_discs
+[99:99:99] [main/INFO]: [Quad] loaded default fuel values
+[99:99:99] [main/INFO]: [Quad] loaded quad fuel tags
+[99:99:99] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[99:99:99] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[99:99:99] [main/INFO]: Applied 20157 biome modifications to 276 of 276 new biomes in 2.272 s
+[99:99:99] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[99:99:99] [Server thread/INFO]: Dispatching loading event for config bettertridents-server.toml
+[99:99:99] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[99:99:99] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[99:99:99] [Server thread/INFO]: Dispatching loading event for config tradingpost-server.toml
+[99:99:99] [Server thread/INFO]: Initialising config for DistantHorizons
+[99:99:99] [Server thread/ERROR]: Unable to convert config value [{}] from [class java.lang.String] to [class java.util.HashMap] for config [mapTest], the default config value will be used instead [{}]. Make sure a converter is defined in [ConfigTypeConverters].
+[99:99:99] [Server thread/INFO]: Config for DistantHorizons initialised
+[99:99:99] [Server thread/INFO]: Running Delayed setup...
+[99:99:99] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[99:99:99] [Server thread/INFO]: Checking for Distant Horizons update
+[99:99:99] [Server thread/INFO]: Distant Horizons already up to date.
+[99:99:99] [Server thread/INFO]: Distant Horizons server Initialized at 
+[99:99:99] [Server thread/INFO]: Rescheduled 0 explosion event(s)
+[99:99:99] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[99:99:99] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[99:99:99] [Server thread/INFO]: [Quad] cached original fuel map with count of: 8288
+[99:99:99] [Server thread/INFO]: Config 'random_mob_sizes.json' was successfully loaded.
+[99:99:99] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[99:99:99] [Server thread/INFO]:         __    
+[99:99:99] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.140
+[99:99:99] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.116.6+1.21.1
+[99:99:99] [Server thread/INFO]: 
+[99:99:99] [Server thread/INFO]: Loading configuration...
+[99:99:99] [Server thread/INFO]: Loading storage provider... [H2]
+[99:99:99] [Server thread/INFO]: Loading internal permission managers...
+[99:99:99] [Server thread/INFO]: Performing initial data load...
+[99:99:99] [Server thread/INFO]: Successfully enabled. (took 410ms)
+[99:99:99] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[99:99:99] [Server thread/INFO]: Loading properties
+[99:99:99] [Server thread/INFO]: Default game type: SURVIVAL
+[99:99:99] [Server thread/INFO]: Generating keypair
+[99:99:99] [Server thread/INFO]: Starting Minecraft server on *:25565
+[99:99:99] [Server thread/INFO]: Using default channel type
+[99:99:99] [Server thread/INFO]: Preparing level "world"
+[99:99:99] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[99:99:99] [Server thread/INFO]: Wilder Wild's No Preliminary Surface Overworld Surface Rules have been added!
+[99:99:99] [Server thread/INFO]: Enforcing safe world random access
+[99:99:99] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[.\world\data]...
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[99:99:99] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(.\world\data)]].
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[99:99:99] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: AGGRESSIVE
+[99:99:99] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[99:99:99] [DH-ApplyConfigPresetTimer/INFO]: preset active: AGGRESSIVE
+[99:99:99] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [aether:the_aether]-[.\world\dimensions\aether\the_aether\data]...
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[99:99:99] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@aether:the_aether}] at [[LocalSaveStructure@(.\world\data;.\world\dimensions\aether\the_aether\data)]].
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[.\world\DIM-1\data]...
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[99:99:99] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(.\world\data;.\world\dimensions\aether\the_aether\data;.\world\DIM-1\data)]].
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[.\world\DIM1\data]...
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[99:99:99] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[99:99:99] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(.\world\DIM1\data;.\world\data;.\world\dimensions\aether\the_aether\data;.\world\DIM-1\data)]].
+[99:99:99] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=method_3774,CANCELLABLE=false], server: net.minecraft.class_3176@63311029)
+[99:99:99] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[99:99:99] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[99:99:99] [Server thread/INFO]: Time elapsed: 22 ms
+[99:99:99] [Server thread/INFO]: Done (2.157s)! For help, type "help"
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/ERROR]: Invalid path : Invalid path ''
+[99:99:99] [Server thread/INFO]: A new version of Essential Commands is available. Current: '0.35.2-mc1.21' Latest: '0.37.4-mc1.21.6
+'. Get the new version at https://modrinth.com/mod/essential-commands
+[99:99:99] [Server thread/INFO]: [Spawn Animations] Sending global config to world ...
+[99:99:99] [Server thread/INFO]: Scanning 22385 recipes for modification
+[99:99:99] [Server thread/INFO]: Modified 111 recipe ingredients in 76.73 ms
+[99:99:99] [Server thread/INFO]: Possible world ids: minecraft:overworld,minecraft:the_end,aether:the_aether,minecraft:the_nether
+[99:99:99] [Server thread/INFO]: Configured `rtp_enabled_worlds` world ids: minecraft:overworld
+[99:99:99] [Server thread/INFO]: All configured `rtp_enabled_worlds` world ids are valid.
+[99:99:99] [IO-Worker-1/INFO]: [Polymer] Starting resource pack generation...
+[99:99:99] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[99:99:99] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[99:99:99] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[99:99:99] [Server thread/INFO]: Batch Chunk Generator initialized
+[99:99:99] [Server thread/INFO]: Creating world gen queue
+[99:99:99] [Server thread/INFO]: Created world gen queue
+[99:99:99] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[99:99:99] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[99:99:99] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[99:99:99] [Server thread/INFO]: Batch Chunk Generator initialized
+[99:99:99] [Server thread/INFO]: Creating world gen queue
+[99:99:99] [Server thread/INFO]: Created world gen queue
+[99:99:99] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[99:99:99] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[99:99:99] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[99:99:99] [Server thread/INFO]: Batch Chunk Generator initialized
+[99:99:99] [Server thread/INFO]: Creating world gen queue
+[99:99:99] [Server thread/INFO]: Created world gen queue
+[99:99:99] [Server thread/INFO]: Set world gen queue for level [aether:the_aether].
+[99:99:99] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[99:99:99] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[99:99:99] [Server thread/INFO]: Batch Chunk Generator initialized
+[99:99:99] [Server thread/INFO]: Creating world gen queue
+[99:99:99] [Server thread/INFO]: Created world gen queue
+[99:99:99] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[99:99:99] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
